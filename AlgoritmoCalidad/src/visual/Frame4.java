@@ -91,15 +91,15 @@ public class Frame4 extends JFrame{
 			lblTexto.setBounds(26, 49, 381, 16);
 			panel.add(lblTexto);
 			
-			JLabel lblOp1 = new JLabel("Menos del 5MB de uso de la memoria RAM.");
+			JLabel lblOp1 = new JLabel("Menos de 100 MB de uso de la memoria RAM.");
 			lblOp1.setBounds(60, 77, 387, 23);
 			panel.add(lblOp1);
 			
-			JLabel lblOp21 = new JLabel("Entre 5 MB y 20MB de uso de la memoria RAM.");
+			JLabel lblOp21 = new JLabel("Entre 100 MB y 500 MB de uso de la memoria RAM.");
 			lblOp21.setBounds(60, 119, 359, 16);
 			panel.add(lblOp21);
 			
-			JLabel lblOp3 = new JLabel("Mas de 20 MB de uso de la memoria RAM.");
+			JLabel lblOp3 = new JLabel("Mas de 500 MB de uso de la memoria RAM.");
 			lblOp3.setBounds(60, 158, 365, 16);
 			panel.add(lblOp3);
 			
